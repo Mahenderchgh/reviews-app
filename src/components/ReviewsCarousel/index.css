@@ -1,0 +1,72 @@
+/* Write your code here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.left-arrow-btn {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  margin-left: 40px;
+}
+.right-arrow-btn {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  margin-right: 40px;
+}
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: roboto;
+  color: #ffffff;
+  text-align: center;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.profile-image {
+  height: 55px;
+  width: 55px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: roboto;
+}
+.company-name {
+  color: #171f46;
+  font-size: 17px;
+  font-family: roboto;
+  font-weight: 500px;
+}
+.description {
+  color: #171f46;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: roboto;
+}
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 650px;
+}
